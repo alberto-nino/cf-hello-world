@@ -1,0 +1,9 @@
+---
+applications:
+- name: Spring-Boot-HelloWorld
+  memory: 512M
+  host: spring-boot-helloworld
+  domain: cfapps.eu10.hana.ondemand.com
+  env:
+    JAVA_OPTS: '-XX:MaxMetaspaceSize=106772K -Xss1M -Xmx200M -XX:ReservedCodeCacheSize=16M -XX:MaxDirectMemorySize=10M'
+  
